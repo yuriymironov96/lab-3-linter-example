@@ -5,3 +5,4 @@ def func():
     o = 2
     if True:
         return None
+
