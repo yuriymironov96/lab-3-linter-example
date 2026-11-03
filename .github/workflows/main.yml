@@ -17,6 +17,9 @@ jobs:
         run: black --check --diff .
 
   deploy:
+
+    runs-on: ubuntu-latest
+  
     steps:
       - name: Fake deploy
         run: echo "Fake deploy..."
