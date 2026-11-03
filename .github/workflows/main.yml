@@ -16,3 +16,8 @@ jobs:
       - name: Lint with ruff
         run: black --check --diff .
 
+  deploy:
+    steps:
+      - name: Fake deploy
+        run: echo "Fake deploy..."
+
